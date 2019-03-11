@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2055351946.index
+2929891282.index
+2530802075.index
+2095936762.index
+2233726124.index
