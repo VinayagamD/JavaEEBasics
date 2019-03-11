@@ -467,3 +467,48 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:17:27.900
 !MESSAGE executing callback sts4.classpath.AXUVLmtA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:22:29.793
+!MESSAGE Preparing classpath changed notification JSPExpersion
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:22:29.802
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:22:29.814
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:22:29.819
+!MESSAGE executing callback sts4.classpath.AXUVLmtA JSPExpersion false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:22:29.833
+!MESSAGE executing callback sts4.classpath.AXUVLmtA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:00.707
+!MESSAGE Preparing classpath changed notification JSPExpersion
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:00.713
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:00.720
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:00.725
+!MESSAGE executing callback sts4.classpath.AXUVLmtA JSPExpersion false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:00.742
+!MESSAGE executing callback sts4.classpath.AXUVLmtA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:11.218
+!MESSAGE Preparing classpath changed notification JSPExpersion
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:11.223
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:11.229
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:11.236
+!MESSAGE executing callback sts4.classpath.AXUVLmtA JSPExpersion false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 01:23:11.245
+!MESSAGE executing callback sts4.classpath.AXUVLmtA SUCCESS [done]
