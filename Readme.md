@@ -13,7 +13,7 @@
 
 **Below Two Dependencises is must in pom**
 
-`
+```
 <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
 	<dependency>
 		<groupId>javax.servlet.jsp</groupId>
@@ -28,8 +28,30 @@
 		<artifactId>javax.servlet-api</artifactId>
 		<version>4.0.1</version>
 		<scope>provided</scope>
-	</dependency>`
+	</dependency>
+```
+----------
+### Below Are two type of servlet mapping
 
+* WebDescriotr Based
+
+```
+	<servlet>
+  			<servlet-name>HelloWorld</servlet-name>
+  			<display-name>HelloWorld</display-name>
+  			<description></description>
+  			<servlet-class>org.vinay.servlets.HelloWorld</servlet-class>
+  		</servlet>
+  	<servlet-mapping>
+  		<servlet-name>HelloWorld</servlet-name>
+  		<url-pattern>/HelloWorld</url-pattern>
+  	</servlet-mapping>
+
+```	
+* AnnontationBased
+	```
+	@WebServlet("/Hello")
+	```
 ----------
 
 ### Below List of Topic Covered

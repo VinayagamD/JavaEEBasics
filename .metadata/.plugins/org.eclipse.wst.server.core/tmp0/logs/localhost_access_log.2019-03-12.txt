@@ -47,3 +47,8 @@
 0:0:0:0:0:0:0:1 - - [12/Mar/2019:13:21:23 +0530] "GET /JSPComment/ HTTP/1.1" 200 52
 0:0:0:0:0:0:0:1 - - [12/Mar/2019:13:21:33 +0530] "GET /JSPComment/HelloJSP.jsp HTTP/1.1" 200 193
 0:0:0:0:0:0:0:1 - - [12/Mar/2019:13:21:33 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+127.0.0.1 - - [12/Mar/2019:15:10:24 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:10:25 +0530] "GET /annontation/servlet/com.vinay.jsp.Hello HTTP/1.1" 404 1121
+0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:10:32 +0530] "GET /annontation/servlet/Hello HTTP/1.1" 404 1107
+0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:13:10 +0530] "GET /annontation/Hello HTTP/1.1" 200 23
+0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:13:21 +0530] "GET /annontation/Hello HTTP/1.1" 200 23

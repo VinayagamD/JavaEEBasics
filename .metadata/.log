@@ -571,3 +571,189 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2019-03-12 12:54:48.155
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:50.926
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:50.931
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@679b7428[org.springframework.tooling.boot.ls:1.4.0.201902210636(id=999)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:50.938
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:51.412
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.905
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TIkzAnpN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.911
+!MESSAGE subscribing to classpath changes: sts4.classpath.TIkzAnpN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.915
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.922
+!MESSAGE subsribers = [sts4.classpath.TIkzAnpN]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.926
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.933
+!MESSAGE project annontation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.938
+!MESSAGE project JSPComment ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.943
+!MESSAGE Preparing classpath changed notification annontation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.948
+!MESSAGE project JSPDeclaration ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.953
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.958
+!MESSAGE project JSPScriplets ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.963
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.968
+!MESSAGE project directive ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.973
+!MESSAGE executing callback sts4.classpath.TIkzAnpN annontation false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.978
+!MESSAGE project HelloJSP ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.985
+!MESSAGE project HelloServlet ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.992
+!MESSAGE project JSPExpersion ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:58.998
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.003
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.008
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.013
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TIkzAnpN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.023
+!MESSAGE executing callback sts4.classpath.TIkzAnpN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.028
+!MESSAGE Preparing classpath changed notification JSPExpersion
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.033
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.038
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.043
+!MESSAGE executing callback sts4.classpath.TIkzAnpN JSPExpersion false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.058
+!MESSAGE executing callback sts4.classpath.TIkzAnpN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.063
+!MESSAGE Preparing classpath changed notification HelloServlet
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.068
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.073
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.078
+!MESSAGE executing callback sts4.classpath.TIkzAnpN HelloServlet false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.088
+!MESSAGE executing callback sts4.classpath.TIkzAnpN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.092
+!MESSAGE Preparing classpath changed notification HelloJSP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.098
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.103
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.108
+!MESSAGE executing callback sts4.classpath.TIkzAnpN HelloJSP false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.120
+!MESSAGE executing callback sts4.classpath.TIkzAnpN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.125
+!MESSAGE Preparing classpath changed notification directive
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.130
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.136
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.141
+!MESSAGE executing callback sts4.classpath.TIkzAnpN directive false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.152
+!MESSAGE executing callback sts4.classpath.TIkzAnpN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.158
+!MESSAGE Preparing classpath changed notification JSPScriplets
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.163
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.169
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.173
+!MESSAGE executing callback sts4.classpath.TIkzAnpN JSPScriplets false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.185
+!MESSAGE executing callback sts4.classpath.TIkzAnpN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.189
+!MESSAGE Preparing classpath changed notification JSPDeclaration
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.194
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.200
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.211
+!MESSAGE executing callback sts4.classpath.TIkzAnpN JSPDeclaration false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.221
+!MESSAGE executing callback sts4.classpath.TIkzAnpN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.226
+!MESSAGE Preparing classpath changed notification JSPComment
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.231
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.237
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.242
+!MESSAGE executing callback sts4.classpath.TIkzAnpN JSPComment false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-12 15:08:59.252
+!MESSAGE executing callback sts4.classpath.TIkzAnpN SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-12 15:09:14.729
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
