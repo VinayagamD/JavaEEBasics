@@ -69,3 +69,6 @@
   * Scriplets
   * Declaration
   * Comments
+  * Directive
+  * Annontations
+  * DeploymentDescriptor

@@ -1360,3 +1360,90 @@
 2019-03-12 15:10:16,167 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\annontation\src\main\resources
 2019-03-12 15:10:16,168 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-03-12 15:10:16,168 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\annontation\src\test\resources
+2019-03-12 15:25:30,504 [Worker-70: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\pom.xml
+2019-03-12 15:25:30,914 [Worker-70: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.vinay:JSPConfigInDeploymentDescriptor:0.0.1-SNAPSHOT @ D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\pom.xml.
+2019-03-12 15:25:31,538 [Worker-70: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSPConfigInDeploymentDescriptor/src/main/java
+2019-03-12 15:25:31,538 [Worker-70: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSPConfigInDeploymentDescriptor/src/test/java
+2019-03-12 15:25:32,843 [Worker-70: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2019-03-12 15:25:33,183 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:25:33,183 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:25:33,185 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:25:33,185 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:25:59,162 [Worker-70: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.vinay:JSPConfigInDeploymentDescriptor:0.0.1-SNAPSHOT @ D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\pom.xml.
+2019-03-12 15:25:59,884 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:25:59,884 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:25:59,886 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:25:59,886 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:25:59,886 [Worker-70: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of JSPConfigInDeploymentDescriptor
+2019-03-12 15:25:59,886 [Worker-70: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for JSPConfigInDeploymentDescriptor
+2019-03-12 15:25:59,889 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:00,084 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:00,084 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:26:00,085 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:00,085 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:26:07,387 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-12 15:26:07,678 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.vinay:JSPConfigInDeploymentDescriptor:0.0.1-SNAPSHOT @ D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\pom.xml.
+2019-03-12 15:26:08,160 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSPConfigInDeploymentDescriptor/src/main/java
+2019-03-12 15:26:08,161 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSPConfigInDeploymentDescriptor/src/test/java
+2019-03-12 15:26:09,346 [Worker-72: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JSPConfigInDeploymentDescriptor
+2019-03-12 15:26:09,351 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2019-03-12 15:26:09,500 [Worker-70: Building Project JSPConfigInDeploymentDescriptor] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:09,500 [Worker-70: Building Project JSPConfigInDeploymentDescriptor] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:26:09,502 [Worker-70: Building Project JSPConfigInDeploymentDescriptor] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:09,502 [Worker-70: Building Project JSPConfigInDeploymentDescriptor] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:26:09,502 [Worker-70: Building Project JSPConfigInDeploymentDescriptor] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of JSPConfigInDeploymentDescriptor
+2019-03-12 15:26:09,502 [Worker-70: Building Project JSPConfigInDeploymentDescriptor] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for JSPConfigInDeploymentDescriptor
+2019-03-12 15:26:09,504 [Worker-70: Building Project JSPConfigInDeploymentDescriptor] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:09,935 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:09,935 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:26:09,936 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:09,936 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:26:27,979 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:27,979 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:26:27,980 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:27,980 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:26:49,955 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:49,955 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:26:49,955 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:26:49,955 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:31:29,496 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:31:29,496 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:31:29,497 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:31:29,497 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:31:48,302 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:31:48,302 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:31:48,302 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:31:48,302 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:32:45,980 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:32:45,980 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:32:45,981 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:32:45,981 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:34:11,447 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:34:11,447 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:34:11,448 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:34:11,448 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:34:41,161 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:34:41,161 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:34:41,162 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:34:41,162 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:34:49,299 [Worker-71: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-12 15:34:49,608 [Worker-71: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.vinay:JSPConfigInDeploymentDescriptor:0.0.1-SNAPSHOT @ D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\pom.xml.
+2019-03-12 15:34:50,008 [Worker-71: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSPConfigInDeploymentDescriptor/src/main/java
+2019-03-12 15:34:50,008 [Worker-71: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JSPConfigInDeploymentDescriptor/src/test/java
+2019-03-12 15:34:51,056 [Worker-71: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JSPConfigInDeploymentDescriptor
+2019-03-12 15:34:51,062 [Worker-71: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2019-03-12 15:34:51,412 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:34:51,412 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:34:51,413 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:34:51,413 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:34:51,413 [Worker-73: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of JSPConfigInDeploymentDescriptor
+2019-03-12 15:34:51,413 [Worker-73: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for JSPConfigInDeploymentDescriptor
+2019-03-12 15:34:51,416 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:35:59,411 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:35:59,411 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:35:59,412 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:35:59,412 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources
+2019-03-12 15:37:49,372 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:37:49,372 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\main\resources
+2019-03-12 15:37:49,373 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-12 15:37:49,373 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor\src\test\resources

@@ -52,3 +52,9 @@
 0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:10:32 +0530] "GET /annontation/servlet/Hello HTTP/1.1" 404 1107
 0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:13:10 +0530] "GET /annontation/Hello HTTP/1.1" 200 23
 0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:13:21 +0530] "GET /annontation/Hello HTTP/1.1" 200 23
+127.0.0.1 - - [12/Mar/2019:15:23:02 +0530] "GET /DevMgmt/ProductConfigDyn.xml HTTP/1.1" 404 1106
+127.0.0.1 - - [12/Mar/2019:15:23:02 +0530] "GET /DevMgmt/DiscoveryTree.xml HTTP/1.1" 404 1103
+127.0.0.1 - - [12/Mar/2019:15:27:14 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:27:15 +0530] "GET /JSPConfigInDeploymentDescriptor/HelloJSP.jsp HTTP/1.1" 200 135
+127.0.0.1 - - [12/Mar/2019:15:38:25 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [12/Mar/2019:15:38:26 +0530] "GET /JSPConfigInDeploymentDescriptor/HelloJSPPattern HTTP/1.1" 200 135
