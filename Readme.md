@@ -70,5 +70,17 @@
   * Declaration
   * Comments
   * Directive
+  * Include File
+  * Import Files and Class
+  * Forward Request
+  * Redirect Response
+  * Implicit Object
+* DeploymentDescriptor
+  * web.xml
   * Annontations
-  * DeploymentDescriptor
+  * JSP
+* MVC Based Application
+  * Setup
+  * JSP Page
+  * Servlet Controller
+  * Page Mapping with href
