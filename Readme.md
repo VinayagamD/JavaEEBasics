@@ -36,17 +36,16 @@
 * WebDescriotr Based
 
 ```
-	<servlet>
-  			<servlet-name>HelloWorld</servlet-name>
-  			<display-name>HelloWorld</display-name>
-  			<description></description>
-  			<servlet-class>org.vinay.servlets.HelloWorld</servlet-class>
-  		</servlet>
-  	<servlet-mapping>
-  		<servlet-name>HelloWorld</servlet-name>
-  		<url-pattern>/HelloWorld</url-pattern>
-  	</servlet-mapping>
-
+<servlet>
+  	<servlet-name>HelloWorld</servlet-name>
+  	<display-name>HelloWorld</display-name>
+  	<description></description>
+  	<servlet-class>org.vinay.servletsHelloWorld<servlet-class>
+</servlet>
+<servlet-mapping>
+  	<servlet-name>HelloWorld</servlet-name>
+  	<url-pattern>/HelloWorld</url-pattern>
+</servlet-mapping>
 ```	
 * AnnontationBased
 	```
