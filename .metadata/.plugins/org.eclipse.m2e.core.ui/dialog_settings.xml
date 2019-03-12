@@ -59,6 +59,10 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\WorkSpace\jeetraining\ReadingURLParameters"/>
+			<item value="D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor"/>
+			<item value="D:\WorkSpace\jeetraining\annontation"/>
+			<item value="D:\WorkSpace\jeetraining\directive"/>
 			<item value="D:\WorkSpace\jeetraining\jeetrains\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -72,6 +76,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.vinay.includefilesinjsp"/>
+			<item value="com.vinay.readingurlparameters"/>
+			<item value="com.vinay.JSPConfigInDeploymentDescriptor"/>
+			<item value="com.vinay.annontation"/>
+			<item value="com.vinay.directive"/>
+			<item value="com.vinay.jspcomment"/>
+			<item value="com.vinay.jspdeclaration"/>
 			<item value="com.vinay.JSPScriplets"/>
 			<item value="com.vinay.JSPExpersion"/>
 			<item value="com.vinay.HelloJSP"/>
@@ -82,6 +93,13 @@
 			<item value="com.vinay"/>
 		</list>
 		<list key="artifactId">
+			<item value="IncludeFilesInJSP"/>
+			<item value="ReadingURLParameters"/>
+			<item value="JSPConfigInDeploymentDescriptor"/>
+			<item value="annontation"/>
+			<item value="directive"/>
+			<item value="JSPComment"/>
+			<item value="JSPDeclaration"/>
 			<item value="JSPScriplets"/>
 			<item value="JSPExpersion"/>
 			<item value="HelloJSP"/>
