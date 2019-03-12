@@ -76,6 +76,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.vinay.importclass"/>
 			<item value="com.vinay.includefilesinjsp"/>
 			<item value="com.vinay.readingurlparameters"/>
 			<item value="com.vinay.JSPConfigInDeploymentDescriptor"/>
@@ -93,6 +94,7 @@
 			<item value="com.vinay"/>
 		</list>
 		<list key="artifactId">
+			<item value="ImportClass"/>
 			<item value="IncludeFilesInJSP"/>
 			<item value="ReadingURLParameters"/>
 			<item value="JSPConfigInDeploymentDescriptor"/>
