@@ -1,0 +1,49 @@
+## This repository is used to learn about JEE Servlets and JSP
+
+<hr>
+
+### Environment
+
+* [**JDK8**](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* [**EclipseJEE**](https://www.eclipse.org/downloads/packages/release/2019-03/rc1)
+* [**Maven**](https://maven.apache.org/download.cgi)
+* [**Tomcat9**](https://tomcat.apache.org/download-90.cgi)
+
+<hr>
+
+**Below Two Dependencises is must in pom**
+
+`
+<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+	<dependency>
+		<groupId>javax.servlet.jsp</groupId>
+		<artifactId>javax.servlet.jsp-api</artifactId>
+		<version>2.3.3</version>
+		<scope>provided</scope>
+	</dependency>
+
+<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>4.0.1</version>
+		<scope>provided</scope>
+	</dependency>`
+
+----------
+
+### Below List of Topic Covered
+
+* Basic Setup
+* Create Basic Project
+* Servlets
+  * Setup
+  * Creation
+  * Lifecycle
+* JSP
+  * Setup
+  * Creation
+  * Expressions
+  * Scriplets
+  * Declaration
+  * Comments
