@@ -59,6 +59,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\WorkSpace\jeetraining\formsunderjsp"/>
 			<item value="D:\WorkSpace\jeetraining\JSPDeclaration"/>
 			<item value="D:\WorkSpace\jeetraining\ReadingURLParameters"/>
 			<item value="D:\WorkSpace\jeetraining\JSPConfigInDeploymentDescriptor"/>
@@ -77,6 +78,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.vinay.beansoverview"/>
+			<item value="com.vinay.formunderservlet"/>
+			<item value="com.vinay.form"/>
 			<item value="com.vinay.formsunderjsp"/>
 			<item value="com.vinay.basicmvcapplication"/>
 			<item value="com.vinay.forwardandredirectunderjsp"/>
@@ -89,14 +93,14 @@
 			<item value="com.vinay.jspcomment"/>
 			<item value="com.vinay.jspdeclaration"/>
 			<item value="com.vinay.JSPScriplets"/>
-			<item value="com.vinay.JSPExpersion"/>
-			<item value="com.vinay.HelloJSP"/>
-			<item value="com.vinay.HelloServlet"/>
 		</list>
 		<list key="groupId">
 			<item value="com.vinay"/>
 		</list>
 		<list key="artifactId">
+			<item value="beansoverview"/>
+			<item value="formunderservlet"/>
+			<item value="form"/>
 			<item value="formsunderjsp"/>
 			<item value="BasicMVCApplication"/>
 			<item value="ForwardAndRedirectUnderJSP"/>
@@ -109,9 +113,6 @@
 			<item value="JSPComment"/>
 			<item value="JSPDeclaration"/>
 			<item value="JSPScriplets"/>
-			<item value="JSPExpersion"/>
-			<item value="HelloJSP"/>
-			<item value="HelloServlet"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
