@@ -52,6 +52,40 @@
 	@WebServlet("/Hello")
 	```
 ----------
+* Beans
+  * Declaration
+    ```
+        <jsp:useBean id="user" class="com.vinay.beans.User" scope="session"></jsp:useBean>
+    ```
+  * Setting bean
+    ```
+        <jsp:setProperty property="firstName" name="user" value="abc"/> <br>
+        <jsp:setProperty property="lastName" name="user" value="xyz"/><br>
+    ```
+   * Getting Bean
+    ```
+        FirstName: <jsp:getProperty property="firstName" name="user"/> <br>
+        LastName: <jsp:getProperty property="lastName" name="user"/>
+    ```
+   * Using Request Dispatcher
+    ```
+        <%
+	        request.getRequestDispatcher("getRequestProperty.jsp").forward(request, response);
+        %>
+    ```
+  * Beans With Web Forms
+    ```
+        <form action="getSessionProperty.jsp" method="post">
+             First Name: <input type="text" name="firstName" value='<jsp:getProperty property="firstName" name="user"/>'> <br>
+            Last Name: <input type="text" name="lastName" value='<jsp:getProperty property="lastName" name="user"/>'> <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    ```
+  * Accessing Web Form Beans _Very Important_  
+    ```
+        <jsp:setProperty property="*" name="user"/>
+    ```
 
 ### Below List of Topic Covered
 
@@ -86,3 +120,11 @@
 * WebForms
   * Forms Using JSP
   * Post Request Forms To Servlet
+* Beans
+  * Overview
+  * Scopes
+    * application
+    * session
+    * request
+    * page
+  * WebForms
