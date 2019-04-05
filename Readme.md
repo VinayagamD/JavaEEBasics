@@ -33,7 +33,7 @@
 ----------
 ### Below Are two type of servlet mapping
 
-* WebDescriotr Based
+* WebDescriptor Based
 
 ```
 <servlet>
