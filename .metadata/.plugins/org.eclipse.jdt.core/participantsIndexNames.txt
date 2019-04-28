@@ -5,6 +5,8 @@ D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3
 \RequestScope\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3842672250.index
 \ReadingURLParameters\src\main\java
+D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\229765417.index
+\JSTLSettingUp\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1585243814.index
 \UserLogoutViaSession\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\543662188.index

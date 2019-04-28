@@ -19,7 +19,7 @@
 
 **Below Two Dependencises is must in pom**
 
-```
+```xml
 <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
 	<dependency>
 		<groupId>javax.servlet.jsp</groupId>
@@ -41,7 +41,7 @@
 
 * WebDescriptor Based
 
-```
+```xml
 <servlet>
   	<servlet-name>HelloWorld</servlet-name>
   	<display-name>HelloWorld</display-name>
@@ -54,33 +54,33 @@
 </servlet-mapping>
 ```	
 * AnnontationBased
-	```
+	```java
 	@WebServlet("/Hello")
 	```
 ----------
 * Beans
   * Declaration
-    ```
+    ```jsp
         <jsp:useBean id="user" class="com.vinay.beans.User" scope="session"></jsp:useBean>
     ```
   * Setting bean
-    ```
+    ```jsp
         <jsp:setProperty property="firstName" name="user" value="abc"/> <br>
         <jsp:setProperty property="lastName" name="user" value="xyz"/><br>
     ```
    * Getting Bean
-    ```
+    ```jsp
         FirstName: <jsp:getProperty property="firstName" name="user"/> <br>
         LastName: <jsp:getProperty property="lastName" name="user"/>
     ```
    * Using Request Dispatcher
-    ```
+    ```jsp
         <%
 	        request.getRequestDispatcher("getRequestProperty.jsp").forward(request, response);
         %>
     ```
   * Beans With Web Forms
-    ```
+    ```jsp
         <form action="getSessionProperty.jsp" method="post">
              First Name: <input type="text" name="firstName" value='<jsp:getProperty property="firstName" name="user"/>'> <br>
             Last Name: <input type="text" name="lastName" value='<jsp:getProperty property="lastName" name="user"/>'> <br>
@@ -89,7 +89,7 @@
         </form>
     ```
   * Accessing Web Form Beans _Very Important_  
-    ```
+    ```jsp
         <jsp:setProperty property="*" name="user"/>
     ```
 ----------
@@ -205,7 +205,7 @@
         
         * Accessing session via jsp
         
-        ```JSP
+        ```jsp
             <%
 	            String username = null,sessionId = null;
 	            if(request.getSession().getAttribute("username") == null){
@@ -218,7 +218,7 @@
         ```
         
         * Removing session via servlet
-        ```Java
+        ```java
             @Override
 	        protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		        String action = request.getParameter("action");
@@ -252,7 +252,85 @@
             
             }
         ```
-
+    * [JSTL](https://docs.oracle.com/javaee/5/tutorial/doc/bnake.html)
+        *  Stands For _JSP Standard Tag Library_ 
+        * [Dependency](https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api)
+        ```xml
+            <!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api -->
+            <dependency>
+                <groupId>javax.servlet.jsp.jstl</groupId>
+                <artifactId>javax.servlet.jsp.jstl-api</artifactId>
+                <version>1.2.2</version>
+            </dependency>
+        ```
+        * Types
+           <table>
+            <thead>
+                <tr>
+                    <th > Area</th>
+                    <th > Sub Function </th>
+                    <th> Prefix</th>
+                    <th > Namespace </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan=4>Core</th>
+                    <td>Variable Support</td>
+                    <td rowspan=4>c</td>
+                    <td rowspan=4> http://java.sun.com/jsp/jstl/core</td>
+                </tr>
+                <tr>
+                    <td>Flow control</td>
+                </tr>
+                <tr>
+                    <td>URL management</td>
+                </tr>
+                <tr>
+                    <td>Miscellaneous</td>
+                </tr>
+                <tr>
+                    <th rowspan=3>XML</th>
+                    <td>Core</td>
+                    <td rowspan=3>x</td>
+                    <td rowspan=3> http://java.sun.com/jsp/jstl/xml</td>
+                </tr>
+                <tr>
+                    <td>Flow control</td>
+                </tr>
+                <tr>
+                    <td>Transformation</td>
+                </tr>
+                <tr>
+                    <th rowspan=3>I18N</th>
+                    <td>Locale</td>
+                    <td rowspan=3>fmt</td>
+                    <td rowspan=3>  http://java.sun.com/jsp/jstl/fmt</td>
+                </tr>
+                <tr>
+                    <td>Message formatting</td>
+                </tr>
+                <tr>
+                    <td>Transformation</td>
+                </tr>
+                <tr>
+                    <th rowspan=1>Database</th>
+                    <td>SQL</td>
+                    <td rowspan=1>sql</td>
+                    <td rowspan=1>http://java.sun.com/jsp/jstl/sql</td>
+                </tr>
+                 <tr>
+                    <th rowspan=2>Functions</th>
+                    <td>Collection length</td>
+                    <td rowspan=2>fn</td>
+                    <td rowspan=2> http://java.sun.com/jsp/jstl/functions</td>
+                </tr>
+                <tr>
+                    <td>String manipulation</td>
+                </tr>
+                
+            </tbody>
+           </table>
 ----------
 
 ### Below List of Topic Covered
@@ -334,3 +412,5 @@
         * Creating Filter
         * Adding Controller URL Pattern
         * Setting Up Logic
+    * [JSTL [JSP Standard Tag Library]]((https://docs.oracle.com/javaee/5/tutorial/doc/bnake.html))
+      
