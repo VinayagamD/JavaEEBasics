@@ -412,5 +412,5 @@
         * Creating Filter
         * Adding Controller URL Pattern
         * Setting Up Logic
-    * [JSTL [JSP Standard Tag Library]]((https://docs.oracle.com/javaee/5/tutorial/doc/bnake.html))
+    * [JSTL [JSP Standard Tag Library]](https://docs.oracle.com/javaee/5/tutorial/doc/bnake.html)
       
