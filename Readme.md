@@ -106,6 +106,46 @@
 	}
     ```
 
+    * Write Cookie in Servlet
+    ```Java
+        @Override
+	    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		    String userName = request.getParameter("username");
+		    String password = request.getParameter("password");
+		    if(userName.equals("vinay") && password.equals("drago")) {
+			    // Invalidating Any Session
+			    request.getSession().invalidate();
+			    HttpSession newSession = request.getSession(true);
+			    newSession.setMaxInactiveInterval(300);
+			    Cookie cUserName = new Cookie("username", userName);
+			    response.addCookie(cUserName);
+			    response.sendRedirect("memberArea.jsp");
+		    }else {
+			    response.sendRedirect("login.jsp");
+		    }
+	    }
+    ```
+    * Read Cookie in JSP
+        ```JSP
+            <%
+	             String username = null, sessionID = null;
+	            Cookie[] cookies = request.getCookies();
+	            if(cookies != null){
+		            for(Cookie cookie: cookies){
+			            if(cookie.getName().equals("username"))
+				        username = cookie.getValue();
+			            if(cookie.getName().equals("JSESSIONID"))
+				        sessionID = cookie.getValue();
+		            }
+	            }
+	            if(sessionID==null || username == null){
+		        response.sendRedirect("login.jsp");
+	            }
+            %>
+            UserName : <%=username %> <br>
+            Current Session : <%=sessionID %> <br>
+        ```
+
 ### Below List of Topic Covered
 
 * Basic Setup
@@ -149,3 +189,22 @@
   * WebForms
   * Session Management
     * Session
+    * Read And Write Cookie
+      * Write Cookie in Servlet
+        ```Java
+            Cookie cUserName = new Cookie("username", userName);
+			response.addCookie(cUserName);
+         ```
+      * Read Cookie in JSP
+        ```JSP
+             String username = null, sessionID = null;
+	        Cookie[] cookies = request.getCookies();
+	        if(cookies != null){
+		        for(Cookie cookie: cookies){
+			        if(cookie.getName().equals("username"))
+				    username = cookie.getValue();
+			        if(cookie.getName().equals("JSESSIONID"))
+				    sessionID = cookie.getValue();
+		        }
+	        }
+        ```      

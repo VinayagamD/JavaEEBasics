@@ -13,6 +13,8 @@ D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2
 \SeesionUnderJSPOverview\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1041099818.index
 \formunderservlet\src\main\java
+D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2494422715.index
+\ReadAndWriteCookie\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1546049132.index
 \beanscopetype\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3842672250.index
