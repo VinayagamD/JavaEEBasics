@@ -445,3 +445,4 @@
     * [JSTL [JSP Standard Tag Library]](https://docs.oracle.com/javaee/5/tutorial/doc/bnake.html)
       * Core
         * JSTL Add And Remove TAGS
+        * Reading using beans
