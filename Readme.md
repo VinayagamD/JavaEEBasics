@@ -448,4 +448,5 @@
         * Reading using beans
         * Decision Making with JSTL
           * if / else
-          * choose & when tag
+          * choose when & otherwise tag
+        * Looping with JSTL

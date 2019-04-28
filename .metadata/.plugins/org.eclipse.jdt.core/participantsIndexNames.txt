@@ -37,6 +37,8 @@ D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1
 \beanscopetype\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1041099818.index
 \formunderservlet\src\main\java
+D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\399127793.index
+\JSTLChooseAndWhenTAG\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\79639870.index
 \HandlingSessionWithoutCookies\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1833962437.index

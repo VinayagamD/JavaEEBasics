@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\DecisionMakingUnderJSTL" path="/Decision_Making_Under_JSTL" reloadable="true" source="org.eclipse.jst.jee.server:DecisionMakingUnderJSTL"/></Host>
+      <Context docBase="D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSTLChooseAndWhenTAG" path="/JSTL_choose_and_when_tag" reloadable="true" source="org.eclipse.jst.jee.server:JSTLChooseAndWhenTAG"/></Host>
     </Engine>
   </Service>
 </Server>
