@@ -295,3 +295,11 @@
         * Setting the session is servlet
         * Accessing session via jsp
         * Removing session via servlet
+    * Organinsing
+        * Remove web.xml
+        * Set the project facet dynamic web module to version > 3.0
+        * Managing URL with servlet properly
+    * Handling Session Without Cookies
+        ```Java
+            String encode =response.encodeURL(request.getContextPath());
+        ```

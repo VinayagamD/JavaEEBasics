@@ -1,4 +1,6 @@
 INDEX VERSION 1.131
+D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\79639870.index
+\HandlingSessionWithoutCookies\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2233726124.index
 \jeetrains\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4284650948.index
