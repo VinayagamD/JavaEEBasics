@@ -360,7 +360,74 @@
                     </body>
                 </html>
             ```
+        * Reading From Beans
+          ```jsp
+                 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+                pageEncoding="ISO-8859-1"%>
+                <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                        <meta charset="ISO-8859-1">
+                        <title>JSTL Demo</title>
+                    </head>
+                    <body>
+	                    <jsp:useBean id="user" class="com.vinay.beans.User" scope="page"/>
+	
+	                    <c:out value="${user.getFirstName()}"/>
+	                    <c:out value="${user.getLastName()}"/>
+                    </body>
+                </html>
+          ```
+        * Decision Making using JSTL
+          * if / else
 
+            ```jsp
+                 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+                pageEncoding="ISO-8859-1"%>
+                <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                        <meta charset="ISO-8859-1">
+                        <title>JSTL Demo</title>
+                    </head>
+                    <body>
+	                    <jsp:useBean id="user" class="com.vinay.beans.User" scope="page"/>
+	
+	                    <c:out value="${user.getFirstName()}"/>
+	                    <c:out value="${user.getLastName()}"/>
+                    </body>
+                </html>
+            ```
+        * choose, when & otherwise tag
+
+            ```jsp
+                
+                <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+                pageEncoding="ISO-8859-1"%>
+                <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                        <meta charset="ISO-8859-1">
+                        <title>JSTL Demo</title>
+                    </head>
+                    <body>
+	                    <c:choose>
+		                    <c:when test="${param.lang == 'Java'}">
+			                    Learning Java
+		                    </c:when>
+		                    <c:when test="${param.lang == 'PHP'}">
+			                    Learning PHP
+		                    </c:when>
+		                    <c:otherwise>
+			                    Learning something good!
+		                    </c:otherwise>
+	                    </c:choose>
+                    </body>
+                </html>
+            ```
 ----------
 
 ### Below List of Topic Covered
