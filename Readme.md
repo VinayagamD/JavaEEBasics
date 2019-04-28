@@ -105,27 +105,27 @@
 		}
 	}
     ```
-
-    * Write Cookie in Servlet
-    ```Java
-        @Override
-	    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		    String userName = request.getParameter("username");
-		    String password = request.getParameter("password");
-		    if(userName.equals("vinay") && password.equals("drago")) {
-			    // Invalidating Any Session
-			    request.getSession().invalidate();
-			    HttpSession newSession = request.getSession(true);
-			    newSession.setMaxInactiveInterval(300);
-			    Cookie cUserName = new Cookie("username", userName);
-			    response.addCookie(cUserName);
-			    response.sendRedirect("memberArea.jsp");
-		    }else {
-			    response.sendRedirect("login.jsp");
-		    }
-	    }
-    ```
-    * Read Cookie in JSP
+    * Cookie
+      * Write Cookie in Servlet
+        ```Java
+            @Override
+	        protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		        String userName = request.getParameter("username");
+		        String password = request.getParameter("password");
+		        if(userName.equals("vinay") && password.equals("drago")) {
+			        // Invalidating Any Session
+			         request.getSession().invalidate();
+			        HttpSession newSession = request.getSession(true);
+			        newSession.setMaxInactiveInterval(300);
+			        Cookie cUserName = new Cookie("username", userName);
+			        response.addCookie(cUserName);
+			        response.sendRedirect("memberArea.jsp");
+		        }else {
+			        response.sendRedirect("login.jsp");
+		        }
+	        }
+        ```
+      * Read Cookie in JSP
         ```JSP
             <%
 	             String username = null, sessionID = null;
