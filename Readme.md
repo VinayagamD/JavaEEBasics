@@ -219,7 +219,7 @@
   * WebForms
   * Session Management
     * Session
-    * Read And Write Cookie
+    * Cookie
         * Write Cookie in Servlet
             ```Java
                 Cookie cUserName = new Cookie("username", userName);
