@@ -11936,3 +11936,33 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:12:41.773
 !MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.118
+!MESSAGE Preparing classpath changed notification ServletFilters
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.125
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.133
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.139
+!MESSAGE executing callback sts4.classpath.pliDcYNp ServletFilters false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.168
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.713
+!MESSAGE Preparing classpath changed notification ServletFilters
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.719
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.726
+!MESSAGE classpath=27 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.733
+!MESSAGE executing callback sts4.classpath.pliDcYNp ServletFilters false 27
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 13:39:16.742
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]

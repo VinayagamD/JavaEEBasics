@@ -234,6 +234,27 @@
 	        }
         ```
 
+    * Servlet Filter
+
+        ```Java
+            @WebFilter("/MemberAreaController")
+            public class MemberAreaFilter implements Filter {
+                
+                public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
+		            HttpServletRequest request = (HttpServletRequest)req;
+		            HttpServletResponse response =(HttpServletResponse)res;
+		            if(request.getSession().getAttribute("username") == null) {
+			            response.sendRedirect(request.getContextPath()+"/   SiteController?action=login");
+		            }else {
+			            chain.doFilter(req, res);
+		            }
+	            }
+            
+            }
+        ```
+
+----------
+
 ### Below List of Topic Covered
 
 * Basic Setup
@@ -309,4 +330,7 @@
         ```Java
             String encode =response.encodeURL(request.getContextPath());
         ```
-    
+    * Servlet Filter
+        * Creating Filter
+        * Adding Controller URL Pattern
+        * Setting Up Logic
