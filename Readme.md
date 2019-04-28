@@ -175,6 +175,58 @@
 		            }
 	            }
             ```
+    * Logout Using Session
+        
+        * Setting the session is servlet
+        
+        ```Java
+            @Override
+	        protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		        String userName = request.getParameter("username");
+		        String password = request.getParameter("password");
+		        if(userName.equals("vinay") && password.equals("drago")) {
+			        // Invalidating Any Session
+			        request.getSession().invalidate();
+			        HttpSession newSession = request.getSession(true);
+			        newSession.setMaxInactiveInterval(300);
+			        newSession.setAttribute("username", userName);
+			        response.sendRedirect("memberArea.jsp");
+		        }else {
+			        response.sendRedirect("login.jsp");
+		        }
+	        }
+        ```
+        
+        * Accessing session via jsp
+        
+        ```JSP
+            <%
+	            String username = null,sessionId = null;
+	            if(request.getSession().getAttribute("username") == null){
+		            response.sendRedirect("login.jsp");
+	            }else{
+		            username = request.getSession().getAttribute("username").toString();
+		            sessionId = request.getSession().getId();
+	            }
+            %>
+        ```
+        
+        * Removing session via servlet
+        ```Java
+            @Override
+	        protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		        String action = request.getParameter("action");
+		        switch (action) {
+		            case "destroy":
+			            request.getSession().invalidate();
+			            response.sendRedirect("login.jsp");
+			        break;
+
+		            default:
+			        break;
+		        }
+	        }
+        ```
 
 ### Below List of Topic Covered
 
@@ -239,3 +291,7 @@
 	            }
             ```
         * Logout Using Cookie
+    * Logout Using Session
+        * Setting the session is servlet
+        * Accessing session via jsp
+        * Removing session via servlet

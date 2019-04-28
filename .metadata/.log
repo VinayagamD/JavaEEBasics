@@ -11495,3 +11495,33 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 09:56:20.676
 !MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:44.608
+!MESSAGE Preparing classpath changed notification UserLogoutViaSession
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:44.616
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:44.623
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:44.628
+!MESSAGE executing callback sts4.classpath.pliDcYNp UserLogoutViaSession false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:44.647
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:45.875
+!MESSAGE Preparing classpath changed notification UserLogoutViaSession
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:45.882
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:45.891
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:45.898
+!MESSAGE executing callback sts4.classpath.pliDcYNp UserLogoutViaSession false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 12:19:45.911
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
