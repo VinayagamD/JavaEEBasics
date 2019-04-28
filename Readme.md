@@ -262,6 +262,12 @@
                 <artifactId>javax.servlet.jsp.jstl-api</artifactId>
                 <version>1.2.2</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.taglibs/taglibs-standard-impl -->
+		    <dependency>
+			    <groupId>org.apache.taglibs</groupId>
+			    <artifactId>taglibs-standard-impl</artifactId>
+			    <version>1.2.5</version>
+		    </dependency>
         ```
         * Types
            <table>
@@ -331,6 +337,30 @@
                 
             </tbody>
            </table>
+        
+        * Core
+          * JSTL Add And Remove Tags
+            ```jsp
+                    <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+                    pageEncoding="ISO-8859-1"%>
+                    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                        <meta charset="ISO-8859-1">
+                        <title>JSTL Demo</title>
+                    </head>
+                    <body>
+	                    <c:set var="name" value="Vinay"/>
+	                    <c:out value="${name}"/>
+	                    ${name}
+	                    <c:remove var="name"/>
+	                    ${name}
+	                    ${param.msg}
+                    </body>
+                </html>
+            ```
+
 ----------
 
 ### Below List of Topic Covered
@@ -413,4 +443,5 @@
         * Adding Controller URL Pattern
         * Setting Up Logic
     * [JSTL [JSP Standard Tag Library]](https://docs.oracle.com/javaee/5/tutorial/doc/bnake.html)
-      
+      * Core
+        * JSTL Add And Remove TAGS

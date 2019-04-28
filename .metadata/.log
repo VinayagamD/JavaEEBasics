@@ -12056,3 +12056,109 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 14:40:18.620
 !MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:04.090
+!MESSAGE Preparing classpath changed notification JSTLAddAndRemoveTags
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:04.097
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:04.105
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:04.110
+!MESSAGE executing callback sts4.classpath.pliDcYNp JSTLAddAndRemoveTags false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:04.141
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:11.531
+!MESSAGE Preparing classpath changed notification JSTLAddAndRemoveTags
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:11.537
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:11.546
+!MESSAGE classpath=28 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:11.554
+!MESSAGE executing callback sts4.classpath.pliDcYNp JSTLAddAndRemoveTags false 28
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:55:11.564
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.eclipse.wst.validation 4 0 2019-04-28 17:56:52.291
+!MESSAGE JSF View Validator finished validating: file:/D:/WorkSpace/jeetraining/JSTLSettingUp/src/main/webapp/jstldemo.jsp
+
+!ENTRY org.eclipse.wst.validation 4 0 2019-04-28 17:56:52.297
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:133)
+	at org.eclipse.jst.jsf.ui.internal.validation.JSFValidator.validateFile(JSFValidator.java:175)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPValidator.validate(JSPValidator.java:228)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-28 17:57:54.565
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:56.597
+!MESSAGE Preparing classpath changed notification JSTLSettingUp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:56.603
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:56.609
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:56.613
+!MESSAGE executing callback sts4.classpath.pliDcYNp JSTLSettingUp false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:56.649
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:59.204
+!MESSAGE Preparing classpath changed notification JSTLSettingUp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:59.209
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:59.214
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:59.219
+!MESSAGE executing callback sts4.classpath.pliDcYNp JSTLSettingUp false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 17:59:59.225
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 18:04:10.634
+!MESSAGE Preparing classpath changed notification JSTLAddAndRemoveTags
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 18:04:10.639
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 18:04:10.647
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 18:04:10.653
+!MESSAGE executing callback sts4.classpath.pliDcYNp JSTLAddAndRemoveTags false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-28 18:04:10.690
+!MESSAGE executing callback sts4.classpath.pliDcYNp SUCCESS [done]
