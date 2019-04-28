@@ -86,6 +86,25 @@
     ```
         <jsp:setProperty property="*" name="user"/>
     ```
+----------
+ * Session Management
+   * Session
+    ```Java
+        @Override
+        protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String userName = request.getParameter("username");
+		String password = request.getParameter("password");
+		if(userName.equals("vinay") && password.equals("drago")) {
+			// Invalidating Any Session
+			request.getSession().invalidate();
+			HttpSession newSession = request.getSession(true);
+			newSession.setMaxInactiveInterval(300);
+			response.sendRedirect("memberArea.jsp");
+		}else {
+			response.sendRedirect("login.jsp");
+		}
+	}
+    ```
 
 ### Below List of Topic Covered
 
@@ -128,3 +147,5 @@
     * request
     * page
   * WebForms
+  * Session Management
+    * Session
