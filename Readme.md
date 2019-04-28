@@ -446,3 +446,6 @@
       * Core
         * JSTL Add And Remove TAGS
         * Reading using beans
+        * Decision Making with JSTL
+          * if / else
+          * choose & when tag

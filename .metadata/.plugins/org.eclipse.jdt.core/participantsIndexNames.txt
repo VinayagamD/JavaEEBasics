@@ -23,6 +23,8 @@ D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1
 \BasicMVCApplication\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3428901920.index
 \SessionDestroy\src\main\java
+D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3437397658.index
+\DecisionMakingUnderJSTL\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2761581139.index
 \SeesionUnderJSPOverview\src\main\java
 D:\WorkSpace\jeetraining\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2233726124.index
