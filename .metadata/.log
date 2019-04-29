@@ -12941,3 +12941,33 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2019-04-29 21:13:29.023
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:47.728
+!MESSAGE Preparing classpath changed notification JSTLForEach
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:47.735
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:47.747
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:47.753
+!MESSAGE executing callback sts4.classpath.qzYVeuEA JSTLForEach false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:47.765
+!MESSAGE executing callback sts4.classpath.qzYVeuEA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:49.392
+!MESSAGE Preparing classpath changed notification JSTLForEach
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:49.398
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:49.417
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:49.433
+!MESSAGE executing callback sts4.classpath.qzYVeuEA JSTLForEach false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-29 23:10:49.460
+!MESSAGE executing callback sts4.classpath.qzYVeuEA SUCCESS [done]
