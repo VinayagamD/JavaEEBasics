@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="JSTLChooseAndWhenTAG" path="/JSTL_choose_and_when_tag" reloadable="true" source="org.eclipse.jst.jee.server:JSTLChooseAndWhenTAG"/></Host>
+      <Context docBase="JSTLForLoop" path="/JSTL_For_Loop" reloadable="true" source="org.eclipse.jst.jee.server:JSTLForLoop"/></Host>
     </Engine>
   </Service>
 </Server>
